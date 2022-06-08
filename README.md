@@ -12,11 +12,13 @@ In diesem File wird ein zuvor gespeicherter Datensatz für Münster explorativ u
  In diesem File wird aus dem oben genannten Datensatz ein Maß für die Verkehrsdichte abgeleitet, indem die Track-Punkte den jeweiligen Straßenabschnitten zugeordnet werden.
 * `muenster_DTV_modelling.ipynb`
 In diesem File wird die abgeleitete Verkehrsdichte genutzt, um verschiedene Modelle zur Schätzung der DTV zu erproben. Dazu werden Zähldaten von CODEforMünster verwendet.
+* `environment.yml`
+In dieser Umgebungs-Datei werden für die Ausführung der Modelle benötigte Pakete spezifiziert.
 
 ## Datenquellen
 
 ## Installation und Ausführung der Modelle
-Um die Modelle auszuführen, ist eine Installation von Conda und der hier verfügbaren Umgebung (environment.yml) empfehlenswert, da so alle erforderlichen Pakete und deren Abhängigkeiten installiert werden. Dazu sind folgende Schritte auszuführen:
+Um die Modelle auszuführen, ist eine Installation von Conda und der bereitgestellten Umgebung (environment.yml) empfehlenswert, da so alle erforderlichen Pakete und deren Abhängigkeiten installiert werden. Dazu sind folgende Schritte auszuführen:
 1. [Conda](https://docs.conda.io/en/latest/) installieren
 2. Dieses Repository klonen
 3. In der Kommandozeile in das lokale Verzeichnis des Repositorys wechseln
@@ -29,7 +31,7 @@ Die Modelle sollten in der unter "Modelldateien" angegebenen Reihenfolge aufgeru
 Christina Vergara Ossenberg, János Sebestyén (beide Wuppertal Institut für Klima, Umwelt, Energie gGmbH)
 
 ## Lizenz
-Die oben aufgeführten Modelldateien stehen unter der Creative Commmons Namensnennung 3.0 Deutschland (CC BY 3.0 DE) Lizenz. Sie können geteilt und weiterverarbeitet werden, wenn dabei auf die Urheber*innen und die Lizenz verwiesen wird und eventuelle Änderungen kenntlich gemacht werden. Die vollständige Lizenz kann unter folgendem Link eingesehen werden: https://creativecommons.org/licenses/by/3.0/de/
+Die oben aufgeführten Modelldateien und diese Dokumentation (README.md) stehen unter der Creative Commmons Namensnennung 3.0 Deutschland (CC BY 3.0 DE) Lizenz. Sie können geteilt und weiterverarbeitet werden, wenn dabei auf die Urheber*innen und die Lizenz verwiesen wird und eventuelle Änderungen kenntlich gemacht werden. Die vollständige Lizenz kann unter folgendem Link eingesehen werden: https://creativecommons.org/licenses/by/3.0/de/
 
 Die von den hier veröffentlichten Modellen verwendeten Datenquellen stehen unter eigenen Lizenzen, siehe unter "Datenquellen".
 

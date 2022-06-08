@@ -1,0 +1,13 @@
+name: verkehrsstaerke-gps
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- python = 3.9.12
+- notebook
+- libspatialindex
+- rtree
+- geopandas
+- contextily
+- rasterio

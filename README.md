@@ -19,5 +19,11 @@ Die Modelle sollten in der folgenden Reihenfolge aufgerufen werden, da die Ausga
 5. `muenster_DTV_modelling.ipynb`
 
 ## Urheber*innen
+Christina Vergara Ossenberg, János Sebestyén (beide Wuppertal Institut für Klima, Umwelt, Energie gGmbH)
 
 ## Lizenz
+Sämtliche Inhalte des Repositories stehen unter der Creative Commmons Namensnennung 3.0 Deutschland (CC BY 3.0 DE) Lizenz. Sie können geteilt und weiterverarbeitet werden, wenn dabei auf die Urheber*innen und die Lizenz verwiesen wird und eventuelle Änderungen kenntlich gemacht werden. Die vollständige Lizenz kann unter folgendem Link eingesehen werden: https://creativecommons.org/licenses/by/3.0/de/
+
+Die von den hier veröffentlichten Modellen verwendeten Datenquellen stehen unter eigenen Lizenzen, siehe oben.
+
+Jahr der Veröffentlichung: 2022

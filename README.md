@@ -1,5 +1,9 @@
 # Modellierung von Verkehrsstärken mit GPS-Daten
 
+## Inhalte des Repositories
+
+## Datenquellen
+
 ## Installation und Ausführung der Modelle
 Zur Installation der Modelle sind folgende Schritte erforderlich:
 1. [Conda](https://docs.conda.io/en/latest/) installieren
@@ -11,5 +15,9 @@ Zur Installation der Modelle sind folgende Schritte erforderlich:
 Die Modelle sollten in der folgenden Reihenfolge aufgerufen werden, da die Ausgangsdaten eines Modells als Eingangsdaten für das jeweils folgende Modell verwendet werden:
 1. `envirocar_get_data.ipynb`
 2. `envirocar_muenster_exploration.ipynb`
-3. `muenster_DTV_modelling.ipynb`
 4. `muenster_traffic_density_estimation.ipynb`
+5. `muenster_DTV_modelling.ipynb`
+
+## Urheber*innen
+
+## Lizenz

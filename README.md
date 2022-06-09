@@ -5,7 +5,7 @@ Zur Modellierung der Verkehrsstärken werden automobile Fahrdaten der Citizen Sc
 
 ## Modelldateien
 * `enviroCar_get_data.ipynb`
-In diesem File werden Daten von der Envirocar-Schnittstelle heruntergeladen und in `/data` gespeichert.
+In diesem File werden Daten von der Envirocar-Schnittstelle heruntergeladen und gespeichert.
 * `envirocar_muenster_exploration.ipynb`
 In diesem File wird ein zuvor gespeicherter Datensatz für Münster explorativ untersucht, vor allem bezüglich seiner zeitlichen und räumlichen Auflösung und Abdeckung.
 * `muenster_traffic_density_estimation.ipynb`

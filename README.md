@@ -17,7 +17,7 @@ In dieser Umgebungs-Datei werden für die Ausführung der Modelle benötigte Pak
 
 ## Datenquellen
 Die folgenden Datenquellen werden für die Modellierung verwendet:
-* Automobile Fahrdaten der Citizen Science Plattform [enviroCar](https://envirocar.org/?lng=de). Diese stehen unter der Open Database License (ODbL), die hier abgerufen werden kann: https://opendatacommons.org/licenses/odbl/1-0/. Die Daten werden beim Ausführen des Modells über das Python-Paket [enviroCar-py](https://github.com/enviroCar/envirocar-py) automatisch heruntergeladen und sind nicht Bestandteil dieses Repositories.
+* Automobile Fahrdaten der Citizen Science Plattform [enviroCar](https://envirocar.org/?lng=de). Diese stehen unter der Open Database License (ODbL), die hier abgerufen werden kann: https://opendatacommons.org/licenses/odbl/1-0/. Die Daten werden beim Ausführen des Modells über das Python-Paket [enviroCar-py](https://github.com/enviroCar/envirocar-py) automatisch heruntergeladen und in `/data/envirocar_muenster/` gespeichert. Sie sind nicht Bestandteil dieses Repositories.
 
 ## Installation und Ausführung der Modelle
 Um die Modelle auszuführen, ist eine Installation von Conda und der bereitgestellten Umgebung (environment.yml) empfehlenswert, da so alle erforderlichen Pakete und deren Abhängigkeiten installiert werden. Dazu sind folgende Schritte auszuführen:

@@ -1,5 +1,5 @@
 # Modellierung von Verkehrsstärken mit GPS-Daten
-In diesem Repository befindet sich die vollständige Dokumentation der Modellierung von Verkehrsstärken mit GPS-Daten, die im Rahmen des Projektes mMEU - Mobilitätsbedingte Mikroplastikemissionen in der Umwelt durchgefüht wurde. Das Projekt wurde vom Bundesministerium für Digitales und Verkehr als Teil der Innovationsinitiative mFUND gefördert. Link zur Projektwebsite: https://projekt-mmeu.de/
+In diesem Repository befinden sich die Ergebnisse einer Modellierung von Verkehrsstärken mit GPS-Daten, die im Rahmen des Projektes mMEU - Mobilitätsbedingte Mikroplastikemissionen in der Umwelt durchgefüht wurde. Das Projekt wurde vom Bundesministerium für Digitales und Verkehr als Teil der Innovationsinitiative mFUND gefördert. Link zur Projektwebsite: https://projekt-mmeu.de/
 
 Zur Modellierung der Verkehrsstärken werden automobile Fahrdaten der Citizen Science Plattform [enviroCar](https://envirocar.org/?lng=de) ausgewertet. Durch lineare Regression auf automatische Zähldaten der Stadt Münster (bezogen von [CODEformuenster](https://traffics.codeformuenster.org/)) wird eine Schätzung für die durchschnittliche tägliche Verkehrsstärke (DTV) je Straßenabschnitt vorgenommen. Die Modellergebnisse werden als Shapfile (.shp) ausgegeben.
 
@@ -16,6 +16,8 @@ In diesem File wird die abgeleitete Verkehrsdichte genutzt, um verschiedene Mode
 In dieser Umgebungs-Datei werden für die Ausführung der Modelle benötigte Pakete spezifiziert.
 
 ## Datenquellen
+Die folgenden Datenquellen werden für die Modellierung verwendet:
+* Automobile Fahrdaten der Citizen Science Plattform [enviroCar](https://envirocar.org/?lng=de). Diese stehen unter der Open Database License (ODbL), die hier abgerufen werden kann: https://opendatacommons.org/licenses/odbl/1-0/. Die Daten werden beim Ausführen des Modells über das Python-Paket [enviroCar-py](https://github.com/enviroCar/envirocar-py) automatisch heruntergeladen und sind nicht Bestandteil dieses Repositories.
 
 ## Installation und Ausführung der Modelle
 Um die Modelle auszuführen, ist eine Installation von Conda und der bereitgestellten Umgebung (environment.yml) empfehlenswert, da so alle erforderlichen Pakete und deren Abhängigkeiten installiert werden. Dazu sind folgende Schritte auszuführen:
